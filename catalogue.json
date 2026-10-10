@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "repository": "My Jamendo Connector",
+  "modules": [
+    {
+      "moduleId": "jamendo-cc-v1",
+      "moduleFamilyId": "jamendo_cc",
+      "moduleIdentity": "COMMUNITY-MUS-JAMENDO-CC",
+      "moduleIdentityNumber": 9001,
+      "contentType": "music",
+      "version": "1.0.1",
+      "releaseTrack": "staging",
+      "file": "packages/Jamendo-CC-1.0.1.zip",
+      "sha256": "3f27688b511120149a045030c259b6dbfc93afb242696bc51da0a86705571a66",
+      "publishedAt": "2026-10-10T00:00:00Z",
+      "changelog": [
+        "Search and browse free Creative Commons music from Jamendo.",
+        "Lists only tracks the artist allows to be downloaded.",
+        "Resolves saved catalogue tracks by strict title and artist match."
+      ],
+      "presentation": {
+        "category": "Music",
+        "purpose": "Free Creative Commons music from Jamendo",
+        "recommended": true,
+        "language": "Multi-language"
+      }
+    }
+  ],
+  "disabledModules": []
+}
